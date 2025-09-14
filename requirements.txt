@@ -1,0 +1,21 @@
+# Core Python deps
+torch>=2.0.0
+numpy
+sounddevice
+soundfile
+requests
+
+# Vosk STT
+vosk
+
+# Piper helper (if you want Python bindings, optional)
+piper-tts
+
+# RVC dependencies
+fairseq
+librosa
+av
+ffmpeg-python
+
+# (optional) if you need CLI colors/logging
+colorama
