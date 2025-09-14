@@ -125,7 +125,7 @@ RVC_INDEX = r"D:\RVC\RVC1006AMD_Intel\models\PrincessBubblegumv1.index"
 VOSK_MODEL_PATH = r"D:\vosk-model-small-en-us-0.15"
 
 # Ollama
-MODEL_NAME = "moondream"
+MODEL_NAME = "your_model_here"
 
 📜 requirements.txt
 
