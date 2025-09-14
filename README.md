@@ -70,12 +70,16 @@ echo Hello world | C:\piper\piper.exe --model C:\piper\models\en_US-amy-medium.o
 
 Download RVC WebUI
 
-Clone:
+For Nvidia GPU users:
+https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/RVC1006Nvidia.7z
 
-git clone https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI D:\RVC\Retrieval-based-Voice-Conversion-WebUI
+For AMD/Intel GPU users:
+https://huggingface.co/lj1995/VoiceConversionWebUI/resolve/main/RVC1006AMD_Intel.7z
 
+create a folder called RVC -- optional
+create another folder called models -- use this folder as a place to store your trained voice models, you will still need to put your trained .pth and .index models here: C:\RVC\RVC1006AMD_Intel\models\
 
-Put your trained .pth + .index models in D:\RVC\RVC1006AMD_Intel\models\
+Put your trained .pth + .index models in C:\RVC\RVC1006AMD_Intel\models\
 
 Download Vosk (optional)
 
@@ -90,7 +94,6 @@ VOSK_MODEL_PATH = r"D:\vosk-model-small-en-us-0.15"
 Start Ollama in the background:
 
 ollama serve
-ollama run moondream
 
 
 Run the assistant:
@@ -125,6 +128,9 @@ VOSK_MODEL_PATH = r"D:\vosk-model-small-en-us-0.15"
 MODEL_NAME = "moondream"
 
 📜 requirements.txt
+
+```bash
+
 torch>=2.0.0
 numpy
 sounddevice
@@ -136,6 +142,8 @@ librosa
 av
 ffmpeg-python
 colorama
+
+```
 
 📝 Notes
 
