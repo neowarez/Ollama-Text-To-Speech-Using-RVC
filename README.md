@@ -22,6 +22,7 @@ User → (Ollama response) → Piper TTS → Audio Fix (ffmpeg) → RVC Voice Co
 - **Piper TTS** → download `piper.exe` and voice models (`.onnx`)
 - **RVC WebUI** → clone repo and place your trained models
 - **Vosk model** (optional, for STT) → download [vosk-model-small-en-us-0.15](https://alphacephei.com/vosk/models)
+- https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
 ---
 
