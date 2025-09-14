@@ -29,7 +29,7 @@ User → (Ollama response) → Piper TTS → Audio Fix (ffmpeg) → RVC Voice Co
 
 1. **Clone this repo**  
    ```bash
-   git clone https://github.com/yourusername/ollama-rvc-voice-assistant.git
+   git clone https://github.com/neowarez/ollama-rvc-voice-assistant.git
    cd ollama-rvc-voice-assistant
 
 Create virtual environment
