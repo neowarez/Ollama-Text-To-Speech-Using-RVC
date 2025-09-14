@@ -81,6 +81,14 @@ create another folder called models -- use this folder as a place to store your 
 
 Put your trained .pth + .index models in C:\RVC\RVC1006AMD_Intel\models\
 
+inside rvc, download more requirements
+
+```bash
+
+pip install -r requirements-dml.txt
+
+```
+
 Download Vosk (optional)
 
 Unzip vosk-model-small-en-us-0.15 into D:\
